@@ -21,4 +21,4 @@ jobs:
         run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/sdp-frontend
 
       - name: Docker Push
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/sdp-frontend 
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/sdp-frontend
